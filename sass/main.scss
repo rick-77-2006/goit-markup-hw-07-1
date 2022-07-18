@@ -2,9 +2,6 @@
 @import "./base/img";
 @import "./base/link";
 
-@import "./utils/variables";
-@import "./utils/hidden";
-
 @import "./components/body";
 @import "./components/list";
 @import "./components/container";
@@ -19,3 +16,6 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/portfolio";
+
+@import "./utils/variables";
+@import "./utils/hidden";
