@@ -1,0 +1,35 @@
+.adv-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adv-item {
+  max-width: 270px;
+  margin-right: var(--list-right-margin);
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.adv-icon-box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.adv-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.adv-text {
+  line-height: 1.7;
+}
